@@ -1,0 +1,108 @@
+
+ 
+ /* ENCABEZADO */
+body{
+    font-family: montserrat sans-serif;
+    overflow-x: hidden;
+    background-color:#5e0202 ;
+}
+
+#encabezado{
+    background-color: #5e0202;
+    ;
+}
+
+#nav{
+    background-color:#a89c9c ;
+    color: rgb(216, 177, 129);
+}
+
+h1{
+    color: rgb(216, 177, 129);
+}
+
+/* SLIDER DE IMG */
+
+.carousel-inner{
+    max-height: 39rem;
+}
+
+/* INTRO */
+
+p{
+  color:#a89c9c; 
+}
+
+/* PIE DE PAGINA */
+
+footer{
+    background-color: #760909;
+}
+
+#iconos{
+    color:#a89c9c ;
+}
+
+/* MENU */
+
+h3{
+    color:rgb(216, 177, 129) ;
+}
+
+.menu-section {
+    box-shadow: 0px 0px 20px 0px;
+    padding: 40px;
+    margin-bottom: 30px;
+}
+
+.menu-item {
+    margin-bottom: 20px;
+}
+
+
+
+
+.menu-item p {
+    font-size: 1.1rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* MEDIA QUERIES PANTALLA SM */
+@MEDIA (max-width:768px) {
+    #intro{
+        width: 90%   !important;
+    }
+}
+
