@@ -1,9 +1,17 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
- 
- /* ENCABEZADO */
+
+/* ENCABEZADO */
 body{
+    
+    margin: 0;
+    padding: 0;
+    
     font-family: montserrat sans-serif;
-    overflow-x: hidden;
     background-color:#5e0202 ;
 }
 
@@ -17,7 +25,23 @@ body{
     color: rgb(216, 177, 129);
 }
 
+#nav a:hover {
+    color:aliceblue;
+    background-color: #5e0202;
+}
+
+/* TITULOS */
+
 h1{
+    color: rgb(216, 177, 129);
+    
+}
+
+h3{
+    color:rgb(216, 177, 129) ;
+}
+
+h2{
     color: rgb(216, 177, 129);
 }
 
@@ -36,18 +60,22 @@ p{
 /* PIE DE PAGINA */
 
 footer{
-    background-color: #760909;
+    background-color:#a89c9c
+}
+
+footer p{
+    color:#5e0202;
 }
 
 #iconos{
     color:#a89c9c ;
 }
+footer a{
+    color: #5e0202;
+}
 
 /* MENU */
 
-h3{
-    color:rgb(216, 177, 129) ;
-}
 
 .menu-section {
     box-shadow: 0px 0px 20px 0px;
@@ -65,6 +93,26 @@ h3{
 .menu-item p {
     font-size: 1.1rem;
 }
+
+/*------- HEADER HISTORIA  -------*/
+
+ 
+/* ----- EVENTOS ----- */
+
+#titulo-eventos{
+    color: #a89c9c;
+}
+
+
+
+
+
+
+
+
+
+
+/* Agrega otros estilos CSS según sea necesario para tus elementos */
 
 
 
